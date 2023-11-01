@@ -17,7 +17,13 @@ import Dialog from "../../components/Dialog";
 import fetchEvaluation from "@/app/fetchCalls/fetchCompletion";
 
 export default function SystemContinuousCompletion() {
-  const initialConversation = [{ role: "system", content: "Act as Yoda" }];
+  const initialConversation = [
+    {
+      role: "system",
+      content:
+        "Act as a supportive app for managing mental health, promoting self-awareness, and encouraging healthy coping strategies. Using this human values: Compassion, Empathy, Wellness, Privacy and Accessibility. The name of the app is MindWave ",
+    },
+  ];
   const [chatHistory, setChatHistory] = useState(initialConversation);
 
   const [userInput, setUserInput] = useState("");
