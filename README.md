@@ -23,8 +23,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 Make sure that update the `OPENAI_API_KEY=yourApiKey` in the `.env` file.
 
 ## Workshop 1:
-This was the fun starting point. During this workshop we familiarized ourself with the Playground and how it needs to be used, where do we enter our prompts and the JSON response returned by the AI. We learnt how should we be specific with our prompts and AI was smart enough to take the previous prompt output into the next one. 
-Create a fictitious company or organization: We all agreed to make an app related to mental health so we asked AI to suggest some with this 
+This was the fun starting point. During this workshop we familiarized ourself with the Playground and how it needs to be used, where do we enter our prompts and how AI can return response in a JSON object format. We also learnt how we we need to provide our prompts, they need to be specific to get desired answer. Also AI was smart enough to take the previous prompt output into the next prompt.
+-Create a fictitious company or organization: We all agreed to make an app related to mental health so we asked AI to suggest some with this 
   PROMPT_1: "We need your assistance in creating Mental Health app so it can track mental state and provide coping strategies. Please return a json object that we can use later in an application."
   ASSISTANT: Returned a starting point for creating Mental Health app with a JSON object which keeps track of various parameters like        users, mood, therapy sessions, coping strategies etc.
   PROMPT_2: "Please suggest the name for the app, it's mission and values and then return the json object that you can use later in an application"
